@@ -7,7 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form class="create-task-form">
+            <textarea name="" class="input" id="create-task-input"></textarea>
+            <button class="button" id="create-task-button"></button>
+        </form>
+        <div class="filters">
+            <label for="" class="todo-label">Filter by</label>
+            <select name="" class="todo-select" id="todo-filter">
+                <option value="">all</option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+
+            <label for="" class="todo-label">Sort by</label>
+            <select name="" class="todo-select" id="todo-sort">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        </div>
+
+            <ul class="todo-elems"></ul>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
