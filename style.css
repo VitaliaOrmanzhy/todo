@@ -3,3 +3,60 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+
+.border-blue {
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.create-task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.create-task-input {
+    width: 50%;
+    height: 100px;
+    outline: none;
+}
+
+.button {
+    width: 100px;
+    padding: 5px 0;
+    background-color: blue;
+    color:aliceblue;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: aliceblue;
+    color:blue;
+    border-color: blue;
+}
+
+.todo-label {
+    font-size: 18px;
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+}
+
+.todo-elems {
+    list-style: none;
+}
+
+.todo-elem {
+    height: 150px;
+}
