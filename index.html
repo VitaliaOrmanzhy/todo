@@ -10,28 +10,25 @@
     <div class="container">
         <form class="create-task-form" id="create-task-form">
             <textarea name="" class="create-task-input border-blue" id="create-task-input"></textarea>
-            <button class="button" id="create-task-button">Add</button>
+            <button class="button" type="submit" id="create-task-button">Add</button>
         </form>
         <div class="filters">
             <label for="todo-filter" class="todo-label">Filter by</label>
             <select name="" class="todo-select" id="todo-filter">
-                <option value="">all</option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="all">all</option>
+                <option value="completed">Completed</option>
+                <option value="notCompleted">Not completed</option>
             </select>
 
             <label for="todo-sort" class="todo-label">Sort by</label>
-            <select name="" class="todo-select" id="todo-sort">
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
+            <select name="sort" class="todo-select" id="todo-sort">
+                <option value="date">date</option>
+                <option value="content">content</option>
             </select>
         </div>
 
-            <ul class="todo-elems"></ul>
+        <ul class="todo-ul" id="todo-ul"></ul>
     </div>
-    <script  type="module" src="TodoElem.js"></script>
-    <script type="module" src="TodoList.js"></script>
     <script type="module" src="script.js"></script>
 </body>
 </html>

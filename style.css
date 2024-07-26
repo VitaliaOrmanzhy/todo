@@ -16,6 +16,10 @@
     border-radius: 20px;
 }
 
+.shadow-blue {
+    box-shadow: 5px 2px 8px rgba(0, 0, 255, 0.5);
+}
+
 .create-task-form {
     display: flex;
     flex-direction: column;
@@ -53,10 +57,23 @@
     gap: 20px;
 }
 
-.todo-elems {
+.todo-ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .todo-elem {
-    height: 150px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* max-width: 300px; */
+}
+
+.todo-content {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
